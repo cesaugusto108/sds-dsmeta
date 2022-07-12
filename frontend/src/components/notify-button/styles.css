@@ -1,0 +1,19 @@
+.table-notify-button {
+	box-sizing: border-box;
+	width: 45px;
+	height: 45px;
+	background: #282828;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	outline: none;
+}
+
+.table-notify-button:focus {
+	background: #363636;
+}
+
+.table-notify-button:active {
+	transform: scale(0.98);
+}
