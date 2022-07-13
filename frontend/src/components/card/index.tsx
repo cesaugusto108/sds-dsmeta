@@ -1,5 +1,5 @@
 import "./styles.css";
-import Date from "../../components/date";
+import Date from "../date-input";
 import Table from "../table";
 
 function Card() {
