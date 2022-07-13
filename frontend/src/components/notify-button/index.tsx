@@ -4,7 +4,7 @@ import "./styles.css";
 function NotifyButton() {
 	return (
 		<button className="table-notify-button">
-			<img src={icon} alt="notify-btn-img"></img>
+			<img src={icon} alt="notify-btn-img" />
 		</button>
 	);
 }
