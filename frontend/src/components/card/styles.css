@@ -1,0 +1,21 @@
+.dsmeta-card {
+	background: #283142;
+	border-radius: 10px;
+	max-width: 900px;
+	width: 100%;
+	background: #283142;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.dsmeta-card h2 {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	display: flex;
+	align-items: center;
+	color: #ff6b72;
+	padding: 32px 4%;
+}

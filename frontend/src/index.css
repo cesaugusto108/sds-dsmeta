@@ -24,3 +24,12 @@ a {
 a:hover {
 	color: blanchedalmond;
 }
+
+#dsmeta-main-section {
+	padding: 40px 10px;
+}
+
+.dsmeta-container {
+	margin: 0 auto 39px;
+	height: 893px;
+}
