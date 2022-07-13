@@ -9,3 +9,10 @@
 	box-sizing: border-box;
 	border-top: 1px solid #5f6e82;
 }
+
+.table-notify {
+	height: 74px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

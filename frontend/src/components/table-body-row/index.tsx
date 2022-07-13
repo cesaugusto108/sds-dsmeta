@@ -1,3 +1,4 @@
+import NotifyButton from "../notify-button";
 import "./styles.css";
 
 function TableBodyRow() {
@@ -10,9 +11,7 @@ function TableBodyRow() {
 			<td className="table-sales">11</td>
 			<td className="table-total">R$ 55300.00</td>
 			<td className="table-notify">
-				<button className="table-notify-button">
-					<img src="/assets/img/notification-icon.svg" alt="" srcSet=""></img>
-				</button>
+                <NotifyButton />
 			</td>
 		</tr>
 	);
