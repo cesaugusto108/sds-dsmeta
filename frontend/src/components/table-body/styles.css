@@ -1,0 +1,7 @@
+.dsmeta-salestable tbody tr:nth-child(odd) {
+	background: #242c3b;
+}
+
+.dsmeta-salestable tbody tr:hover {
+	background: #384459;
+}
