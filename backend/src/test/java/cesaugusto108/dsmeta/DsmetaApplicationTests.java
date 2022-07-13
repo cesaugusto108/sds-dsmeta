@@ -1,4 +1,4 @@
-package cesaugusto8.dsmeta;
+package cesaugusto108.dsmeta;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
