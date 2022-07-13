@@ -9,6 +9,7 @@ function Table() {
 				<TableHeader />
 				<TableBody />
 			</table>
+			<div className="dsmeta-salestable-container-bottom"></div>
 		</div>
 	);
 }
