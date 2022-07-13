@@ -33,3 +33,30 @@ a:hover {
 	margin: 0 auto 39px;
 	height: 893px;
 }
+
+@media (max-width: 320px) {
+	.table-id,
+	.table-date,
+	.table-visits,
+	.table-sales {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.table-id,
+	.table-visits,
+	.table-sales {
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	.dsmeta-salestable thead tr {
+		font-size: 22px;
+	}
+
+	.dsmeta-salestable tbody tr {
+		font-size: 18px;
+	}
+}
