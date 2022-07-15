@@ -17,6 +17,7 @@
 	align-items: center;
 	color: #9aaabe;
 	padding: 21px 12px 26px 13px;
+    cursor: pointer;
 }
 
 .react-datepicker__triangle {

@@ -1,11 +1,10 @@
 .dsmeta-card {
-	background: #283142;
 	border-radius: 10px;
 	max-width: 900px;
 	width: 100%;
 	background: #283142;
 	border-radius: 10px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .dsmeta-card h2 {
