@@ -9,7 +9,7 @@ type Props = {
 };
 
 function sendNotification(id: number) {
-	axios(`${BASE_URL}/sales/${id}/notification`).then((response) => toast.info("SMS sent succesfully"));
+	axios(`${BASE_URL}/sales/${id}/notification`).then((response) => toast.info("SMS enviado com sucesso"));
 }
 
 function NotifyButton({ id }: Props) {
