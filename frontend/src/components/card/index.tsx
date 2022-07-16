@@ -9,16 +9,16 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 function Card() {
-    const [startDate, setStartDate] = useState(new Date(new Date().setDate(new Date().getDate() - 365)));
+	const [startDate, setStartDate] = useState(new Date(new Date().setDate(new Date().getDate() - 365)));
 	const [endDate, setEndDate] = useState(new Date());
-    
-	const [sales, setSales] = useState<Sale[]>([]);
-    
-	useEffect(() => {
-        const start = startDate.toISOString().slice(0, 10);
-        const end = endDate.toISOString().slice(0, 10);
 
-        axios.get(`${BASE_URL}/sales?startDate=${start}&endDate=${end}`).then((response) => {
+	const [sales, setSales] = useState<Sale[]>([]);
+
+	useEffect(() => {
+		const start = startDate.toISOString().slice(0, 10);
+		const end = endDate.toISOString().slice(0, 10);
+
+		axios.get(`${BASE_URL}/sales?startDate=${start}&endDate=${end}`).then((response) => {
 			setSales(response.data.content);
 		});
 	}, [startDate, endDate]);
@@ -33,7 +33,7 @@ function Card() {
 				<td className="table-sales">{sale.deals}</td>
 				<td className="table-total">{sale.total.toFixed(2)}</td>
 				<td className="table-notify">
-					<NotifyButton />
+					<NotifyButton id={sale.id} />
 				</td>
 			</tr>
 		);
